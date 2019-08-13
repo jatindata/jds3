@@ -1,0 +1,13 @@
+starting=int(input("Enter starting point: "))
+ending=int(input("Enter ending point: "))
+even=0
+odd=0
+for i in range(starting,ending+1):
+    if(i%2==0):
+        print("Even",i)
+        even=even+1
+    else:
+        print("Odd",i)
+        odd=odd+1
+print("Total number of even number=",even)
+print("Total number of odd number=",odd)
